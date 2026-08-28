@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Outlook Burst Alert</string>
+    <string name="permission_granted">Acceso a notificaciones: concedido ✅</string>
+    <string name="permission_not_granted">Acceso a notificaciones: NO concedido ❌</string>
+    <string name="grant_access_button">Dar acceso a notificaciones</string>
+    <string name="email_count_format">Correos detectados: %1$d</string>
+    <string name="alarm_count_format">Veces que sonó la alarma: %1$d</string>
+    <string name="reset_counters_button">Reiniciar contadores</string>
+    <!-- Fase 3: alarma -->
+    <string name="alarm_channel_name">Alarma de ráfaga de correos</string>
+    <string name="alarm_channel_description">Pantalla completa cuando llega una ráfaga de correos de Outlook</string>
+    <string name="alarm_notification_title">¡Ráfaga de correos detectada!</string>
+    <string name="alarm_notification_text">Toca para abrir la alarma</string>
+    <string name="alarm_screen_title">🔔 Ráfaga de correos</string>
+    <string name="alarm_screen_subtitle">Llegaron varios correos de Outlook seguidos</string>
+    <string name="stop_alarm_button">Detener alarma</string>
+    <string name="test_alarm_button">Probar alarma ahora</string>
+    <!-- Fase 4: monitoreo y configuracion -->
+    <string name="monitoring_switch_label">Monitoreo activo</string>
+    <string name="settings_section_title">Configuración de ráfaga</string>
+    <string name="threshold_hint">Correos para disparar alarma (ej. 5)</string>
+    <string name="window_hint">Ventana de tiempo en segundos (ej. 120)</string>
+    <string name="save_settings_button">Guardar configuración</string>
+    <string name="settings_saved">Configuración guardada</string>
+    <string name="error_invalid_threshold">Ingresa un número válido (mínimo 2)</string>
+    <string name="error_invalid_window">Ingresa segundos válidos (mínimo 10)</string>
+    <string name="error_no_notification_access">Primero da acceso a notificaciones</string>
+    <string name="monitor_channel_name">Monitoreo de correos</string>
+    <string name="monitor_channel_description">Notificación fija mientras el monitoreo de ráfagas está activo</string>
+    <string name="monitor_notification_title">Monitoreo activo</string>
+    <string name="monitor_notification_text">Vigilando correos de Outlook para detectar ráfagas</string>
+</resources>
